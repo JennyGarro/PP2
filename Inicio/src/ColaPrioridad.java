@@ -34,6 +34,7 @@ public class ColaPrioridad<T>{
         
         return null;
     }
+   
         
     public T first(){
         for (int i=0;this.CP.length>i; i++){
@@ -42,12 +43,12 @@ public class ColaPrioridad<T>{
             }            
         }
         
-        return null;
+        return ("No hay elementos en la cola");
     }
         
         
     
         
-    h
+    
     
 }
